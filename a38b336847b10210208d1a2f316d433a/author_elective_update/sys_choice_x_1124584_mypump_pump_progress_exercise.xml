@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="exercise" table="x_1124584_mypump_pump_progress" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>exercise</element>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 12:07:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>exercise</sys_name>
+            <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+            <sys_update_name>sys_choice_x_1124584_mypump_pump_progress_exercise</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 12:07:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Crunches</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Crunches</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plank</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Plank</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Twists</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Twists</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bench Press</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Bench Press</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hammer Press</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Hammer Press</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Push ups</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Push ups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Squats</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Squats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leg curl</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Leg curl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leg extension</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Leg extension</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leg Press</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Leg Press</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Triceps extension</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Triceps extension</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Skull crushers</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Skull crushers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Triceps pushdowns</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Triceps pushdowns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ez-bar curl</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Ez-bar curl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hammer curl</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Hammer curl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biceps curl</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Biceps curl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pull ups</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Pull ups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pull downs</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Pull downs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Seated cable rows</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:18</sys_updated_on>
+            <value>Seated cable rows</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overhead press</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:19</sys_updated_on>
+            <value>Overhead press</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Side raises</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:19</sys_updated_on>
+            <value>Side raises</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reverse Fly</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:11:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:11:19</sys_updated_on>
+            <value>Reverse Fly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>exercise</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1124584_mypump_pump_progress</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-09 15:21:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-09 15:21:38</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

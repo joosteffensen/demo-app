@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>redirecting user after pump signup</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    alert("Welcome to MyPump!");
+	var url = "https://dev192434.service-now.com/now/nav/ui/classic/params/target/x_1124584_mypump_pump_progress.do%3Fsys_id%3D-1%26sysparm_stack%3Dx_1124584_mypump_pump_progress_list.do";
+    top.window.location = url;
+}   ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 17:52:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0d61e8147b18210208d1a2f316d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>redirecting user after pump signup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_script_client_e0d61e8147b18210208d1a2f316d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:52:31</sys_updated_on>
+        <table>x_1124584_mypump_pumpers</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_script_client_e0d61e8147b18210208d1a2f316d438f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;redirecting user after pump signup&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    alert("Welcome to MyPump!");
+	var url = "https://dev192434.service-now.com/now/nav/ui/classic/params/target/x_1124584_mypump_pump_progress.do%3Fsys_id%3D-1%26sysparm_stack%3Dx_1124584_mypump_pump_progress_list.do";
+    top.window.location = url;
+}   ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-24 17:52:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e0d61e8147b18210208d1a2f316d438f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;redirecting user after pump signup&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e0d61e8147b18210208d1a2f316d438f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-24 17:52:31&lt;/sys_updated_on&gt;&lt;table&gt;x_1124584_mypump_pumpers&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1797004944</payload_hash>
+        <record_name>redirecting user after pump signup</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 17:52:32</sys_created_on>
+        <sys_id>1b479ec147b18210208d1a2f316d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f113cdb3d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:52:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1f479ec176b18210385c5f8ffdc79ca2</update_guid>
+        <update_guid_history>1f479ec176b18210385c5f8ffdc79ca2:1797004944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 18:03:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>10ba5aa15a4f48d2ad4275a9eec7bac4</sys_id>
+        <sys_metadata>e0d61e8147b18210208d1a2f316d438f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>redirecting user after pump signup</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent display_value="Pumpers">ebf58cb447f10210208d1a2f316d435a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_script_client_e0d61e8147b18210208d1a2f316d438f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e0d61e8147b18210208d1a2f316d438f">1b479ec147b18210208d1a2f316d43a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 18:03:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

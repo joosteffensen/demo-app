@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Autofill user</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var currentUser = g_user.userID;
+    if (g_form.isNewRecord()) {
+        g_form.setValue('user', currentUser);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-27 15:25:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5d1994a477d4210208d1a2f316d4329</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Autofill user</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_script_client_d5d1994a477d4210208d1a2f316d4329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 13:00:29</sys_updated_on>
+        <table>x_1124584_mypump_pumpers</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_script_client_d5d1994a477d4210208d1a2f316d4329</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Autofill user&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    var currentUser = g_user.userID;
+    if (g_form.isNewRecord()) {
+        g_form.setValue('user', currentUser);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-27 15:25:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d5d1994a477d4210208d1a2f316d4329&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autofill user&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d5d1994a477d4210208d1a2f316d4329&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 13:00:29&lt;/sys_updated_on&gt;&lt;table&gt;x_1124584_mypump_pumpers&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1731412121</payload_hash>
+        <record_name>Autofill user</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 13:00:29</sys_created_on>
+        <sys_id>9cda75964735c210208d1a2f316d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f24caed350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 13:00:29</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>54da7596f335c2107cf2f9c54869b0f7</update_guid>
+        <update_guid_history>54da7596f335c2107cf2f9c54869b0f7:-1731412121,ff9ce516c4f1c210496d118a9d15c3a4:68265908,af48699eb2b1c210147f2c191421269a:-1731412121,df3ed18ad6bd42101b4034673e07bffb:68265908,845319ca597d4210c473cf21b0af17e2:-1731412121,3113dd8ac57d4210f89b439e40852d67:-1740078461,c01351ca867d4210a20900f8fab3fc98:1731244120,faf29d8a587d421037ac35c2f0da1637:970004005,9e52194ae27d42100ccff7ebbdfdacfb:82939675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 13:01:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0800eefeee854fe09e8c41b0c0a7a400</sys_id>
+        <sys_metadata>d5d1994a477d4210208d1a2f316d4329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autofill user</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent display_value="Pumpers">ebf58cb447f10210208d1a2f316d435a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_script_client_d5d1994a477d4210208d1a2f316d4329</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d5d1994a477d4210208d1a2f316d4329">9cda75964735c210208d1a2f316d43f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 13:01:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="New user handling">11c12c8b47398610208d1a2f316d4313</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>New user handling Negative case</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 16:52:13</sys_created_on>
+        <sys_id>1339ba8d479a8610208d1a2f316d4338</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New user handling Negative case</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_atf_test_1339ba8d479a8610208d1a2f316d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 17:15:51</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=1339ba8d479a8610208d1a2f316d4338"/>
+</record_update>

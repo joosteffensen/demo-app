@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>deleting_user_from_mypump</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Deleting User from MyPump</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:24:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af5f5fad47310210208d1a2f316d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deleting User from MyPump</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_hub_flow_af5f5fad47310210208d1a2f316d43b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 12:24:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_variable_value action="DELETE" query="document_key=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=af5f5fad47310210208d1a2f316d43b4^sys_idNOT INeb5f5fad47310210208d1a2f316d43b5"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>af5f5fad47310210208d1a2f316d43b4</id>
+        <name>Deleting User from MyPump</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:24:21</sys_created_on>
+        <sys_id>eb5f5fad47310210208d1a2f316d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 12:24:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=eb5f5fad47310210208d1a2f316d43b5"/>
+    <sys_hub_flow_input action="DELETE" query="model=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_flow_output action="DELETE" query="model=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_action_instance action="DELETE" query="flow=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_hub_flow_variable action="DELETE" query="model=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=af5f5fad47310210208d1a2f316d43b4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_hub_flow_af5f5fad47310210208d1a2f316d43b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>deleting_user_from_mypump</internal_name><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><name>Deleting User from MyPump</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 12:24:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>af5f5fad47310210208d1a2f316d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Deleting User from MyPump</sys_name><sys_overrides/><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sys_hub_flow_af5f5fad47310210208d1a2f316d43b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 12:24:21</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=af5f5fad47310210208d1a2f316d43b4"/><sys_variable_value action="delete_multiple" query="document_key=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_trigger_instance action="delete_multiple" query="flow=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_flow_stage action="delete_multiple" query="flow=af5f5fad47310210208d1a2f316d43b4"/><sys_flow_cat_variable_model action="delete_multiple" query="id=af5f5fad47310210208d1a2f316d43b4^sys_idNOT INeb5f5fad47310210208d1a2f316d43b5"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>af5f5fad47310210208d1a2f316d43b4</id><name>Deleting User from MyPump</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 12:24:21</sys_created_on><sys_id>eb5f5fad47310210208d1a2f316d43b5</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 12:24:21</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=eb5f5fad47310210208d1a2f316d43b5"/><sys_hub_flow_input action="delete_multiple" query="model=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_flow_output action="delete_multiple" query="model=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_action_instance action="delete_multiple" query="flow=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_flow_logic action="delete_multiple" query="flow=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=af5f5fad47310210208d1a2f316d43b4"/><sys_hub_flow_variable action="delete_multiple" query="model=af5f5fad47310210208d1a2f316d43b4"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_af5f5fad47310210208d1a2f316d43b4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_af5f5fad47310210208d1a2f316d43b4"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_af5f5fad47310210208d1a2f316d43b4"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_af5f5fad47310210208d1a2f316d43b4"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=af5f5fad47310210208d1a2f316d43b4"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=af5f5fad47310210208d1a2f316d43b4"/></record_update>]]></payload>
+        <payload_hash>-259643946</payload_hash>
+        <record_name>Deleting User from MyPump</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:24:21</sys_created_on>
+        <sys_id>6b5f1bed47310210208d1a2f316d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a5d20b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 12:24:21</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>6f5f1bed31310210b4ff551cc9fe7ffe</update_guid>
+        <update_guid_history>6f5f1bed31310210b4ff551cc9fe7ffe:-259643946</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:25:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>a69343fdd9314aca97bd7d6f2e77a124</sys_id>
+        <sys_metadata>af5f5fad47310210208d1a2f316d43b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deleting User from MyPump</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_af5f5fad47310210208d1a2f316d43b4</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_af5f5fad47310210208d1a2f316d43b4">6b5f1bed47310210208d1a2f316d43ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 12:25:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1124584_mypump_MyPump homepage.do</endpoint>
+        <html><![CDATA[<html>
+<head>
+    <title>Custom Homepage</title>
+    <style>
+        /* Add custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Custom ServiceNow App</h1>
+        <p>This is a custom homepage for your ServiceNow application.</p>
+        <!-- Add your custom content and JavaScript code here -->
+    </div>
+</body>
+</html>]]></html>
+        <name>MyPump homepage</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 16:50:02</sys_created_on>
+        <sys_id>ed98bfae47714610208d1a2f316d43b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MyPump homepage</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_ui_page_ed98bfae47714610208d1a2f316d43b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 16:50:30</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_ui_page_ed98bfae47714610208d1a2f316d43b4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;homepages&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1124584_mypump_MyPump homepage.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Custom Homepage&lt;/title&gt;
+    &lt;style&gt;
+        /* Add custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        h1 {
+            color: #333;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;h1&gt;Welcome to Custom ServiceNow App&lt;/h1&gt;
+        &lt;p&gt;This is a custom homepage for your ServiceNow application.&lt;/p&gt;
+        &lt;!-- Add your custom content and JavaScript code here --&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;]]&gt;&lt;/html&gt;&lt;name&gt;MyPump homepage&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-29 16:50:02&lt;/sys_created_on&gt;&lt;sys_id&gt;ed98bfae47714610208d1a2f316d43b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;MyPump homepage&lt;/sys_name&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_ed98bfae47714610208d1a2f316d43b4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-29 16:50:30&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1632146513</payload_hash>
+        <record_name>MyPump homepage</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 16:50:30</sys_created_on>
+        <sys_id>2309bfae47714610208d1a2f316d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2ac3dfc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 16:50:30</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>a709bfaefe714610c4b53274974d8a05</update_guid>
+        <update_guid_history>a709bfaefe714610c4b53274974d8a05:-1632146513,fcf8b7ee1e7146107d1d4c65761ae41d:-330412257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 14:54:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>22966e53a4d945af8fcc7124dfb8d661</sys_id>
+        <sys_metadata>ed98bfae47714610208d1a2f316d43b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyPump homepage</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_ui_page_ed98bfae47714610208d1a2f316d43b4</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_ed98bfae47714610208d1a2f316d43b4">2309bfae47714610208d1a2f316d4306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 14:54:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

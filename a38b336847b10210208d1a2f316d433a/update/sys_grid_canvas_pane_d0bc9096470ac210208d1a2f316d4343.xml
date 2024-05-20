@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="New Tab 1">e931852947020210208d1a2f316d439f</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2024-05-10 18:24:56">14bc1492470ac210208d1a2f316d4304</portal_widget>
+        <posx>6</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 16:24:56</sys_created_on>
+        <sys_id>d0bc9096470ac210208d1a2f316d4343</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>e931852947020210208d1a2f316d439f</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_d0bc9096470ac210208d1a2f316d4343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:26:29</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

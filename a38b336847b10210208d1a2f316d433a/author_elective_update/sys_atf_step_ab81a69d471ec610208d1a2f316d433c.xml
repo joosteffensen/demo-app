@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are visible: Choose color:, Choose size:, Confirm your email address, Delivery Address:, Recepient's name:
+Confirm that the following variables are mandatory: Choose color:, Choose size:, Confirm your email address, Delivery Address:, Recepient's name:
+</description>
+        <display_name>Variable State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>ab81a69d471ec610208d1a2f316d433c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_atf_step_ab81a69d471ec610208d1a2f316d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 13:35:15</sys_updated_on>
+        <table/>
+        <test display_value="Merch order testing">4370e25d471ec610208d1a2f316d43e9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=ab81a69d471ec610208d1a2f316d433c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>27912e9d471ec610208d1a2f316d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value>dbfad46e47ca0610208d1a2f316d439d,6f80a8e2470e0610208d1a2f316d438f,9e0228a6470e0610208d1a2f316d4307,bb22656a47424610208d1a2f316d4356,6b6364a6470e0610208d1a2f316d43c5</value>
+        <variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>2b912e9d471ec610208d1a2f316d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>63912e9d471ec610208d1a2f316d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>67912e9d471ec610208d1a2f316d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>a3912e9d471ec610208d1a2f316d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value>dbfad46e47ca0610208d1a2f316d439d,6f80a8e2470e0610208d1a2f316d438f,9e0228a6470e0610208d1a2f316d4307,bb22656a47424610208d1a2f316d4356,6b6364a6470e0610208d1a2f316d43c5</value>
+        <variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>af912e9d471ec610208d1a2f316d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value>62f6942a47ca0610208d1a2f316d43d2</value>
+        <variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ab81a69d471ec610208d1a2f316d433c</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:47:29</sys_created_on>
+        <sys_id>eb912e9d471ec610208d1a2f316d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:47:29</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_atf_step_ab81a69d471ec610208d1a2f316d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the following variables are visible: Choose color:, Choose size:, Confirm your email address, Delivery Address:, Recepient's name:
+Confirm that the following variables are mandatory: Choose color:, Choose size:, Confirm your email address, Delivery Address:, Recepient's name:
+</description><display_name>Variable State Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>ab81a69d471ec610208d1a2f316d433c</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Variable State Validation</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sys_atf_step_ab81a69d471ec610208d1a2f316d433c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 13:35:15</sys_updated_on><table/><test display_value="Merch order testing">4370e25d471ec610208d1a2f316d43e9</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ab81a69d471ec610208d1a2f316d433c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>27912e9d471ec610208d1a2f316d43cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value>dbfad46e47ca0610208d1a2f316d439d,6f80a8e2470e0610208d1a2f316d438f,9e0228a6470e0610208d1a2f316d4307,bb22656a47424610208d1a2f316d4356,6b6364a6470e0610208d1a2f316d43c5</value><variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>2b912e9d471ec610208d1a2f316d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value/><variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>63912e9d471ec610208d1a2f316d43cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value/><variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>67912e9d471ec610208d1a2f316d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value/><variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>a3912e9d471ec610208d1a2f316d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value>dbfad46e47ca0610208d1a2f316d439d,6f80a8e2470e0610208d1a2f316d438f,9e0228a6470e0610208d1a2f316d4307,bb22656a47424610208d1a2f316d4356,6b6364a6470e0610208d1a2f316d43c5</value><variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>af912e9d471ec610208d1a2f316d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value>62f6942a47ca0610208d1a2f316d43d2</value><variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ab81a69d471ec610208d1a2f316d433c</document_key><order>700</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-20 09:47:29</sys_created_on><sys_id>eb912e9d471ec610208d1a2f316d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-20 09:47:29</sys_updated_on><value/><variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-918129370</payload_hash>
+        <record_name>Variable State Validation</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 13:35:15</sys_created_on>
+        <sys_id>ccc5935147520a10208d1a2f316d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f9636a9780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 13:35:15</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>84c5935180520a1020e692860b9a61df</update_guid>
+        <update_guid_history>84c5935180520a1020e692860b9a61df:-918129370,5695df11ec520a10cc5b572162c28011:-320340379,81426addac1ec61061e2c4cdf1c8abc5:-918129370,a1f1e2ddce1ec610a3545d644cc46c99:-320340379,8df12e9dd11ec610a8ce6c1f0a1155de:277448612,23912e9d3d1ec610644e0d3cfc9311cf:-320340379</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 13:39:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>2888964a454c4ada87439568dc33dd64</sys_id>
+        <sys_metadata>ab81a69d471ec610208d1a2f316d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ab81a69d471ec610208d1a2f316d433c</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ab81a69d471ec610208d1a2f316d433c">ccc5935147520a10208d1a2f316d43df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 13:39:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

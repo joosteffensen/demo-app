@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2931000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send an email for a new user</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>new_pump_user_greeting</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Pumpers Record","reference":"x_1124584_mypump_pumpers","reference_display":"Pumpers","type":"reference","base_type":"reference","usedInstances":{"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"]},"attributes":{}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Pumpers Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1124584_mypump_pumpers","column_name":"user","usedInstances":{"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Pumpers Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["description"]}},{"name":"Created_1.current.user.user_name","label":"Trigger - Record Created➛Pumpers Record➛User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["caller_id"],"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"],"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"],"5553baf2-2639-4767-800d-08f544c0f582":["user"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Pumpers Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":[null]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Pumpers Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":["ah_to"]}}]</label_cache>
+        <master_snapshot>eb2e0ade4775c210208d1a2f316d4386</master_snapshot>
+        <name>New Pump User Greeting</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>332e0ade4775c210208d1a2f316d43f3</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f4d8e5e4775c210208d1a2f316d4301</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>New Pump User Greeting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_hub_flow_2f4d8e5e4775c210208d1a2f316d4301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:12:06</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_variable_value action="DELETE" query="document_key=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="x_1124584_mypump_pumpers">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>332e0ade4775c210208d1a2f316d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>x_1124584_mypump_pumpers</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>2f4d8e5e4775c210208d1a2f316d4301</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:10:08</sys_created_on>
+        <sys_id>27785e9e47b5c210208d1a2f316d4338</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <trigger display_value="">332e0ade4775c210208d1a2f316d43f3</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN27785e9e47b5c210208d1a2f316d4338"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN356dc21e4775c210208d1a2f316d434e"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:41</sys_created_on>
+        <sys_id>356dc21e4775c210208d1a2f316d434e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=356dc21e4775c210208d1a2f316d434e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>356dc21e4775c210208d1a2f316d434e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:41</sys_created_on>
+        <sys_id>f56dc69e4775c210208d1a2f316d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:21:41</sys_updated_on>
+        <value>x_1124584_mypump_pumpers</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>356dc21e4775c210208d1a2f316d434e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:41</sys_created_on>
+        <sys_id>fd6dc69e4775c210208d1a2f316d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:21:41</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN234d8e5e4775c210208d1a2f316d4304"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>2f4d8e5e4775c210208d1a2f316d4301</id>
+        <name>New Pump User Greeting</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:15</sys_created_on>
+        <sys_id>234d8e5e4775c210208d1a2f316d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:21:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=234d8e5e4775c210208d1a2f316d4304"/>
+    <sys_hub_flow_input action="DELETE" query="model=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN132e0a9e4775c210208d1a2f316d4379,9f2e0ade4775c210208d1a2f316d432e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</model>
+        <model_id>2f4d8e5e4775c210208d1a2f316d4301</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:04</sys_created_on>
+        <sys_id>132e0a9e4775c210208d1a2f316d4379</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=132e0a9e4775c210208d1a2f316d4379"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</model>
+        <model_id>2f4d8e5e4775c210208d1a2f316d4301</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:04</sys_created_on>
+        <sys_id>9f2e0ade4775c210208d1a2f316d432e</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=9f2e0ade4775c210208d1a2f316d432e"/>
+    <sys_hub_flow_output action="DELETE" query="model=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_hub_action_instance action="DELETE" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN0e48d69e47b5c210208d1a2f316d431e,18cdce9e4775c210208d1a2f316d4332,4c7d029e4775c210208d1a2f316d43be"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:09:13</sys_created_on>
+        <sys_id>0e48d69e47b5c210208d1a2f316d431e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:38</sys_updated_on>
+        <ui_id>5553baf2-2639-4767-800d-08f544c0f582</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0e48d69e47b5c210208d1a2f316d431e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e48d69e47b5c210208d1a2f316d431e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:09:55</sys_created_on>
+        <sys_id>d0789e5e47b5c210208d1a2f316d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:09:55</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0e48d69e47b5c210208d1a2f316d431e"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>0e48d69e47b5c210208d1a2f316d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:09:55</sys_created_on>
+        <sys_id>88789e5e47b5c210208d1a2f316d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:09:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>0e48d69e47b5c210208d1a2f316d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:09:55</sys_created_on>
+        <sys_id>40789e5e47b5c210208d1a2f316d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:09:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{Created_1.current.user.user_name}}^group={"display":"End users","value":"60c9afdf47e94210208d1a2f316d435c","sys_id":"60c9afdf47e94210208d1a2f316d435c"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=0e48d69e47b5c210208d1a2f316d431e"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0e48d69e47b5c210208d1a2f316d431e"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>6381372d-9939-498b-ba4d-fccc2c68f916</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:13</sys_created_on>
+        <sys_id>18cdce9e4775c210208d1a2f316d4332</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:38</sys_updated_on>
+        <ui_id>9d101495-3e56-449f-be54-ef5a9d4660b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=18cdce9e4775c210208d1a2f316d4332"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>18cdce9e4775c210208d1a2f316d4332</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:24:59</sys_created_on>
+        <sys_id>8a2e4a9e4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:24:59</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=18cdce9e4775c210208d1a2f316d4332"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>18cdce9e4775c210208d1a2f316d4332</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:24:59</sys_created_on>
+        <sys_id>462e4a9e4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:24:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>18cdce9e4775c210208d1a2f316d4332</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:24:59</sys_created_on>
+        <sys_id>0a2e4a9e4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:24:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>caller_id={{Created_1.current.user.user_name}}^priority=2^description=User :"{{Created_1.current.user.sys_id}}" registration failed.</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=18cdce9e4775c210208d1a2f316d4332"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=18cdce9e4775c210208d1a2f316d4332"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:21:51</sys_created_on>
+        <sys_id>4c7d029e4775c210208d1a2f316d43be</sys_id>
+        <sys_mod_count>56</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:38</sys_updated_on>
+        <ui_id>2608c4ed-f11e-4065-871d-9a1e01fdcf6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4c7d029e4775c210208d1a2f316d43be"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c7d029e4775c210208d1a2f316d43be</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:07</sys_created_on>
+        <sys_id>22bd061e4775c210208d1a2f316d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:07</sys_updated_on>
+        <value>Welcome to MyPump!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c7d029e4775c210208d1a2f316d43be</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:07</sys_created_on>
+        <sys_id>6ebd061e4775c210208d1a2f316d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:07</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4c7d029e4775c210208d1a2f316d43be"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>4c7d029e4775c210208d1a2f316d43be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:07</sys_created_on>
+        <sys_id>2abd061e4775c210208d1a2f316d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Pumpers Record &amp;gt; User &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_405e3a72-b352-4baf-9497-6a8326b977e9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;br /&gt;Welcome to MyPump community!&lt;br /&gt;&lt;br /&gt;Wishing you great progress,&amp;nbsp;&lt;br /&gt;MyPump team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>4c7d029e4775c210208d1a2f316d43be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:07</sys_created_on>
+        <sys_id>eabd061e4775c210208d1a2f316d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>4c7d029e4775c210208d1a2f316d43be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:07</sys_created_on>
+        <sys_id>62bd061e4775c210208d1a2f316d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.user.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4c7d029e4775c210208d1a2f316d43be"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4c7d029e4775c210208d1a2f316d43be"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN0fbd0a9e4775c210208d1a2f316d437c,cbbd469e4775c210208d1a2f316d43a1"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">932e0ade4775c210208d1a2f316d4340</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:08</sys_created_on>
+        <sys_id>0fbd0a9e4775c210208d1a2f316d437c</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:09</sys_updated_on>
+        <ui_id>6381372d-9939-498b-ba4d-fccc2c68f916</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=0fbd0a9e4775c210208d1a2f316d437c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0fbd0a9e4775c210208d1a2f316d437c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:08</sys_created_on>
+        <sys_id>0fbd0a9e4775c210208d1a2f316d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:08</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0fbd0a9e4775c210208d1a2f316d437c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:08</sys_created_on>
+        <sys_id>cfbd0a9e4775c210208d1a2f316d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:23:08</sys_updated_on>
+        <value>1</value>
+        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=0fbd0a9e4775c210208d1a2f316d437c"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=0fbd0a9e4775c210208d1a2f316d437c"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=0fbd0a9e4775c210208d1a2f316d437c"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">932e0ade4775c210208d1a2f316d4339</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:23:08</sys_created_on>
+        <sys_id>cbbd469e4775c210208d1a2f316d43a1</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=cbbd469e4775c210208d1a2f316d43a1"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=cbbd469e4775c210208d1a2f316d43a1"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=cbbd469e4775c210208d1a2f316d43a1"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT INef2e0ade4775c210208d1a2f316d4345"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>2f4d8e5e4775c210208d1a2f316d4301</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>ef2e0ade4775c210208d1a2f316d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>405e3a72-b352-4baf-9497-6a8326b977e9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN932e0ade4775c210208d1a2f316d4331,9f2e0ade4775c210208d1a2f316d432d"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:04</sys_created_on>
+        <sys_id>932e0ade4775c210208d1a2f316d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:04</sys_created_on>
+        <sys_id>9f2e0ade4775c210208d1a2f316d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send an email for a new user</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>new_pump_user_greeting</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Pumpers Record","reference":"x_1124584_mypump_pumpers","reference_display":"Pumpers","type":"reference","base_type":"reference","usedInstances":{"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"]},"attributes":{}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Pumpers Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1124584_mypump_pumpers","column_name":"user","usedInstances":{"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Pumpers Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["description"]}},{"name":"Created_1.current.user.user_name","label":"Trigger - Record Created➛Pumpers Record➛User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["caller_id"],"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"],"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"],"5553baf2-2639-4767-800d-08f544c0f582":["user"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Pumpers Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":[null]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Pumpers Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":["ah_to"]}}]</label_cache>
+        <master>true</master>
+        <name>New Pump User Greeting</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="New Pump User Greeting">2f4d8e5e4775c210208d1a2f316d4301</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb2e0ade4775c210208d1a2f316d4386</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_variable_value action="DELETE" query="document_key=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN3f2e0ade4775c210208d1a2f316d43dd"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>3f2e0ade4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=3f2e0ade4775c210208d1a2f316d43dd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3f2e0ade4775c210208d1a2f316d43dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>772e0ade4775c210208d1a2f316d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <value>x_1124584_mypump_pumpers</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3f2e0ade4775c210208d1a2f316d43dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>b32e0ade4775c210208d1a2f316d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN6f2e0ade4775c210208d1a2f316d4387"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>eb2e0ade4775c210208d1a2f316d4386</id>
+        <name>New Pump User Greeting</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>6f2e0ade4775c210208d1a2f316d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=6f2e0ade4775c210208d1a2f316d4387"/>
+    <sys_hub_flow_input action="DELETE" query="model=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN632e0ade4775c210208d1a2f316d4397,6f2e0ade4775c210208d1a2f316d4388"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</model>
+        <model_id>eb2e0ade4775c210208d1a2f316d4386</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>632e0ade4775c210208d1a2f316d4397</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=632e0ade4775c210208d1a2f316d4397"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</model>
+        <model_id>eb2e0ade4775c210208d1a2f316d4386</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>6f2e0ade4775c210208d1a2f316d4388</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=6f2e0ade4775c210208d1a2f316d4388"/>
+    <sys_hub_flow_output action="DELETE" query="model=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_hub_action_instance action="DELETE" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN1b781e9e47b5c210208d1a2f316d43d0,372e0ade4775c210208d1a2f316d43dc,7b2e0ade4775c210208d1a2f316d43c8"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:10:07</sys_created_on>
+        <sys_id>1b781e9e47b5c210208d1a2f316d43d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <ui_id>5553baf2-2639-4767-800d-08f544c0f582</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1b781e9e47b5c210208d1a2f316d43d0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b781e9e47b5c210208d1a2f316d43d0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:10:07</sys_created_on>
+        <sys_id>1f781e9e47b5c210208d1a2f316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1b781e9e47b5c210208d1a2f316d43d0"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>1b781e9e47b5c210208d1a2f316d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:10:07</sys_created_on>
+        <sys_id>d7781e9e47b5c210208d1a2f316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>1b781e9e47b5c210208d1a2f316d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:10:07</sys_created_on>
+        <sys_id>9b781e9e47b5c210208d1a2f316d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>user={{Created_1.current.user.user_name}}^group={"display":"End users","value":"60c9afdf47e94210208d1a2f316d435c","sys_id":"60c9afdf47e94210208d1a2f316d435c"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=1b781e9e47b5c210208d1a2f316d43d0"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=1b781e9e47b5c210208d1a2f316d43d0"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>6381372d-9939-498b-ba4d-fccc2c68f916</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>372e0ade4775c210208d1a2f316d43dc</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <ui_id>9d101495-3e56-449f-be54-ef5a9d4660b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=372e0ade4775c210208d1a2f316d43dc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>372e0ade4775c210208d1a2f316d43dc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>3b2e0ade4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=372e0ade4775c210208d1a2f316d43dc"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>372e0ade4775c210208d1a2f316d43dc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>f32e0ade4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>372e0ade4775c210208d1a2f316d43dc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>b72e0ade4775c210208d1a2f316d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>caller_id={{Created_1.current.user.user_name}}^priority=2^description=User :"{{Created_1.current.user.sys_id}}" registration failed.</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=372e0ade4775c210208d1a2f316d43dc"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=372e0ade4775c210208d1a2f316d43dc"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>7b2e0ade4775c210208d1a2f316d43c8</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <ui_id>2608c4ed-f11e-4065-871d-9a1e01fdcf6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=7b2e0ade4775c210208d1a2f316d43c8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b2e0ade4775c210208d1a2f316d43c8</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>3f2e0ade4775c210208d1a2f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b2e0ade4775c210208d1a2f316d43c8</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>ff2e0ade4775c210208d1a2f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <value>Welcome to MyPump!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=7b2e0ade4775c210208d1a2f316d43c8"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>7b2e0ade4775c210208d1a2f316d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>f72e0ade4775c210208d1a2f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hi&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Pumpers Record &amp;gt; User &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_405e3a72-b352-4baf-9497-6a8326b977e9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;br /&gt;Welcome to MyPump community!&lt;br /&gt;&lt;br /&gt;Wishing you great progress,&amp;nbsp;&lt;br /&gt;MyPump team&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>7b2e0ade4775c210208d1a2f316d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>bb2e0ade4775c210208d1a2f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>7b2e0ade4775c210208d1a2f316d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>372e0ade4775c210208d1a2f316d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.user.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=7b2e0ade4775c210208d1a2f316d43c8"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=7b2e0ade4775c210208d1a2f316d43c8"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN232e0ade4775c210208d1a2f316d43b2,2f2e0ade4775c210208d1a2f316d43ae"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">932e0ade4775c210208d1a2f316d4340</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>232e0ade4775c210208d1a2f316d43b2</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <ui_id>6381372d-9939-498b-ba4d-fccc2c68f916</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=232e0ade4775c210208d1a2f316d43b2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>232e0ade4775c210208d1a2f316d43b2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>272e0ade4775c210208d1a2f316d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>232e0ade4775c210208d1a2f316d43b2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>632e0ade4775c210208d1a2f316d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=232e0ade4775c210208d1a2f316d43b2"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=232e0ade4775c210208d1a2f316d43b2"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=232e0ade4775c210208d1a2f316d43b2"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">932e0ade4775c210208d1a2f316d4339</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="New Pump User Greeting">eb2e0ade4775c210208d1a2f316d4386</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>2f2e0ade4775c210208d1a2f316d43ae</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:07</sys_updated_on>
+        <ui_id>bc684e5a-e0a4-4844-9aea-b443a2b21a6b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=2f2e0ade4775c210208d1a2f316d43ae"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=2f2e0ade4775c210208d1a2f316d43ae"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=2f2e0ade4775c210208d1a2f316d43ae"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN3b2e0ade4775c210208d1a2f316d43de"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>eb2e0ade4775c210208d1a2f316d4386</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_id>3b2e0ade4775c210208d1a2f316d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>405e3a72-b352-4baf-9497-6a8326b977e9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN6f2e0ade4775c210208d1a2f316d43a7,e72e0ade4775c210208d1a2f316d4393"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>6f2e0ade4775c210208d1a2f316d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:05</sys_created_on>
+        <sys_id>e72e0ade4775c210208d1a2f316d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 14:25:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_eb2e0ade4775c210208d1a2f316d4386"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>2f4d8e5e4775c210208d1a2f316d4301</sys_id>
+        <latest_snapshot>eb2e0ade4775c210208d1a2f316d4386</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT INff2e0ade4775c210208d1a2f316d43f4"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ff2e0ade4775c210208d1a2f316d43f4","name":"plan","plan_signature":null}}</plan>
+        <plan_id>2f4d8e5e4775c210208d1a2f316d4301</plan_id>
+        <snapshot>ba9812de47b5c210208d1a2f316d43f6</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 14:25:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff2e0ade4775c210208d1a2f316d43f4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:10:08</sys_updated_on>
+        <trigger display_value="">332e0ade4775c210208d1a2f316d43f3</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=2f4d8e5e4775c210208d1a2f316d4301"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_hub_flow_2f4d8e5e4775c210208d1a2f316d4301</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2931000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;25000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Send an email for a new user&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;new_pump_user_greeting&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Pumpers Record","reference":"x_1124584_mypump_pumpers","reference_display":"Pumpers","type":"reference","base_type":"reference","usedInstances":{"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"]},"attributes":{}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Pumpers Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1124584_mypump_pumpers","column_name":"user","usedInstances":{"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Pumpers Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["description"]}},{"name":"Created_1.current.user.user_name","label":"Trigger - Record Created➛Pumpers Record➛User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["caller_id"],"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"],"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"],"5553baf2-2639-4767-800d-08f544c0f582":["user"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Pumpers Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":[null]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Pumpers Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":["ah_to"]}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/master_snapshot&gt;&lt;name&gt;New Pump User Greeting&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;332e0ade4775c210208d1a2f316d43f3&lt;/remote_trigger_id&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/sys_id&gt;&lt;sys_mod_count&gt;47&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Pump User Greeting&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_2f4d8e5e4775c210208d1a2f316d4301&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:12:06&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_1124584_mypump_pumpers"&gt;^EQ&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;332e0ade4775c210208d1a2f316d43f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1124584_mypump_pumpers&lt;/table&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:10:08&lt;/sys_created_on&gt;&lt;sys_id&gt;27785e9e47b5c210208d1a2f316d4338&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;332e0ade4775c210208d1a2f316d43f3&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN27785e9e47b5c210208d1a2f316d4338"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN356dc21e4775c210208d1a2f316d434e"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:41&lt;/sys_created_on&gt;&lt;sys_id&gt;356dc21e4775c210208d1a2f316d434e&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=356dc21e4775c210208d1a2f316d434e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;356dc21e4775c210208d1a2f316d434e&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:41&lt;/sys_created_on&gt;&lt;sys_id&gt;f56dc69e4775c210208d1a2f316d43b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:21:41&lt;/sys_updated_on&gt;&lt;value&gt;x_1124584_mypump_pumpers&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;356dc21e4775c210208d1a2f316d434e&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:41&lt;/sys_created_on&gt;&lt;sys_id&gt;fd6dc69e4775c210208d1a2f316d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:21:41&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN234d8e5e4775c210208d1a2f316d4304"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/id&gt;&lt;name&gt;New Pump User Greeting&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:15&lt;/sys_created_on&gt;&lt;sys_id&gt;234d8e5e4775c210208d1a2f316d4304&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:21:15&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=234d8e5e4775c210208d1a2f316d4304"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN132e0a9e4775c210208d1a2f316d4379,9f2e0ade4775c210208d1a2f316d432e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/model&gt;&lt;model_id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:04&lt;/sys_created_on&gt;&lt;sys_id&gt;132e0a9e4775c210208d1a2f316d4379&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=132e0a9e4775c210208d1a2f316d4379"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/model&gt;&lt;model_id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9f2e0ade4775c210208d1a2f316d432e&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9f2e0ade4775c210208d1a2f316d432e"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN0e48d69e47b5c210208d1a2f316d431e,18cdce9e4775c210208d1a2f316d4332,4c7d029e4775c210208d1a2f316d43be"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:09:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0e48d69e47b5c210208d1a2f316d431e&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;5553baf2-2639-4767-800d-08f544c0f582&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0e48d69e47b5c210208d1a2f316d431e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0e48d69e47b5c210208d1a2f316d431e&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:09:55&lt;/sys_created_on&gt;&lt;sys_id&gt;d0789e5e47b5c210208d1a2f316d4372&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:09:55&lt;/sys_updated_on&gt;&lt;value&gt;sys_user_grmember&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=0e48d69e47b5c210208d1a2f316d431e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;0e48d69e47b5c210208d1a2f316d431e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:09:55&lt;/sys_created_on&gt;&lt;sys_id&gt;88789e5e47b5c210208d1a2f316d4371&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:09:55&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;0e48d69e47b5c210208d1a2f316d431e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:09:55&lt;/sys_created_on&gt;&lt;sys_id&gt;40789e5e47b5c210208d1a2f316d4372&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:09:55&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;user={{Created_1.current.user.user_name}}^group={"display":"End users","value":"60c9afdf47e94210208d1a2f316d435c","sys_id":"60c9afdf47e94210208d1a2f316d435c"}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0e48d69e47b5c210208d1a2f316d431e"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0e48d69e47b5c210208d1a2f316d431e"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;6381372d-9939-498b-ba4d-fccc2c68f916&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:13&lt;/sys_created_on&gt;&lt;sys_id&gt;18cdce9e4775c210208d1a2f316d4332&lt;/sys_id&gt;&lt;sys_mod_count&gt;52&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;9d101495-3e56-449f-be54-ef5a9d4660b4&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=18cdce9e4775c210208d1a2f316d4332"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;18cdce9e4775c210208d1a2f316d4332&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:24:59&lt;/sys_created_on&gt;&lt;sys_id&gt;8a2e4a9e4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:24:59&lt;/sys_updated_on&gt;&lt;value&gt;incident&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=18cdce9e4775c210208d1a2f316d4332"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;18cdce9e4775c210208d1a2f316d4332&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:24:59&lt;/sys_created_on&gt;&lt;sys_id&gt;462e4a9e4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:24:59&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;18cdce9e4775c210208d1a2f316d4332&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:24:59&lt;/sys_created_on&gt;&lt;sys_id&gt;0a2e4a9e4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:24:59&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;caller_id={{Created_1.current.user.user_name}}^priority=2^description=User :"{{Created_1.current.user.sys_id}}" registration failed.&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=18cdce9e4775c210208d1a2f316d4332"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=18cdce9e4775c210208d1a2f316d4332"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;c1806bf4a70323008299b39f087901cb&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:21:51&lt;/sys_created_on&gt;&lt;sys_id&gt;4c7d029e4775c210208d1a2f316d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;56&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;2608c4ed-f11e-4065-871d-9a1e01fdcf6f&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4c7d029e4775c210208d1a2f316d43be"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c7d029e4775c210208d1a2f316d43be&lt;/document_key&gt;&lt;order&gt;6&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:07&lt;/sys_created_on&gt;&lt;sys_id&gt;22bd061e4775c210208d1a2f316d4321&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:07&lt;/sys_updated_on&gt;&lt;value&gt;Welcome to MyPump!&lt;/value&gt;&lt;variable display_value="Subject"&gt;5d806bf4a70323008299b39f087901ec&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4c7d029e4775c210208d1a2f316d43be&lt;/document_key&gt;&lt;order&gt;7&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:07&lt;/sys_created_on&gt;&lt;sys_id&gt;6ebd061e4775c210208d1a2f316d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:07&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Body"&gt;ad806bf4a70323008299b39f087901f2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4c7d029e4775c210208d1a2f316d43be"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;4c7d029e4775c210208d1a2f316d43be&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:07&lt;/sys_created_on&gt;&lt;sys_id&gt;2abd061e4775c210208d1a2f316d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Hi&amp;amp;nbsp;&amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&amp;gt;&amp;lt;span class="data-pill-content-container"&amp;gt;&amp;lt;span class="pills"&amp;gt;&amp;lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;amp;gt; Pumpers Record &amp;amp;gt; User &amp;amp;gt; First name"&amp;gt;&amp;lt;span class="pill-start"&amp;gt;Trigger - Record Created&amp;lt;/span&amp;gt;&amp;lt;span class="pill-arrow"&amp;gt;&amp;lt;span class="data-pill-label-caret"&amp;gt;&amp;lt;span class="data-pill-label-arrow"&amp;gt;➛&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class="data-pill-label-caret"&amp;gt;&amp;lt;span class="data-pill-label-arrow"&amp;gt;➛&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class="pill-end"&amp;gt;First name&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;button id="transform_function_facade_405e3a72-b352-4baf-9497-6a8326b977e9" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;,&amp;lt;br /&amp;gt;Welcome to MyPump community!&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Wishing you great progress,&amp;amp;nbsp;&amp;lt;br /&amp;gt;MyPump team&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;4c7d029e4775c210208d1a2f316d43be&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:07&lt;/sys_created_on&gt;&lt;sys_id&gt;eabd061e4775c210208d1a2f316d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;4c7d029e4775c210208d1a2f316d43be&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:07&lt;/sys_created_on&gt;&lt;sys_id&gt;62bd061e4775c210208d1a2f316d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;{{Created_1.current.user.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4c7d029e4775c210208d1a2f316d43be"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4c7d029e4775c210208d1a2f316d43be"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN0fbd0a9e4775c210208d1a2f316d437c,cbbd469e4775c210208d1a2f316d43a1"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;932e0ade4775c210208d1a2f316d4340&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Top Level Catch"&gt;35d60003e6022010a5e40cdd1254dd23&lt;/logic_definition&gt;&lt;order&gt;3&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:08&lt;/sys_created_on&gt;&lt;sys_id&gt;0fbd0a9e4775c210208d1a2f316d437c&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:09&lt;/sys_updated_on&gt;&lt;ui_id&gt;6381372d-9939-498b-ba4d-fccc2c68f916&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0fbd0a9e4775c210208d1a2f316d437c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;0fbd0a9e4775c210208d1a2f316d437c&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:08&lt;/sys_created_on&gt;&lt;sys_id&gt;0fbd0a9e4775c210208d1a2f316d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:08&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Error Status"&gt;0f72a5a25b132010b61ea2013781c749&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;0fbd0a9e4775c210208d1a2f316d437c&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:08&lt;/sys_created_on&gt;&lt;sys_id&gt;cfbd0a9e4775c210208d1a2f316d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:23:08&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="enabled"&gt;dd70187cc36e20105553b740ad40dddc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=0fbd0a9e4775c210208d1a2f316d437c"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0fbd0a9e4775c210208d1a2f316d437c"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0fbd0a9e4775c210208d1a2f316d437c"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;932e0ade4775c210208d1a2f316d4339&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Top Level Try"&gt;e9060aa2c3013010ace8b740ad40dd51&lt;/logic_definition&gt;&lt;order&gt;0&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:23:08&lt;/sys_created_on&gt;&lt;sys_id&gt;cbbd469e4775c210208d1a2f316d43a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cbbd469e4775c210208d1a2f316d43a1"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cbbd469e4775c210208d1a2f316d43a1"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=cbbd469e4775c210208d1a2f316d43a1"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT INef2e0ade4775c210208d1a2f316d4345"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created_1.current.user.first_name}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;ef2e0ade4775c210208d1a2f316d4345&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;405e3a72-b352-4baf-9497-6a8326b977e9&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT IN932e0ade4775c210208d1a2f316d4331,9f2e0ade4775c210208d1a2f316d432d"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:04&lt;/sys_created_on&gt;&lt;sys_id&gt;932e0ade4775c210208d1a2f316d4331&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9f2e0ade4775c210208d1a2f316d432d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;25000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Send an email for a new user&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;new_pump_user_greeting&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Pumpers Record","reference":"x_1124584_mypump_pumpers","reference_display":"Pumpers","type":"reference","base_type":"reference","usedInstances":{"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"]},"attributes":{}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Pumpers Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1124584_mypump_pumpers","column_name":"user","usedInstances":{"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"]}},{"name":"Created_1.current.user.sys_id","label":"Trigger - Record Created➛Pumpers Record➛User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["description"]}},{"name":"Created_1.current.user.user_name","label":"Trigger - Record Created➛Pumpers Record➛User➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"9d101495-3e56-449f-be54-ef5a9d4660b4":["caller_id"],"421f2109-bcba-42b4-adf8-5447e0395a0a":["user"],"dc54bd90-90df-45f0-a1f2-a7c594689d76":["user"],"5553baf2-2639-4767-800d-08f544c0f582":["user"]}},{"name":"Created_1.current.user.first_name","label":"Trigger - Record Created➛Pumpers Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":[null]}},{"name":"Created_1.current.user.email","label":"Trigger - Record Created➛Pumpers Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2608c4ed-f11e-4065-871d-9a1e01fdcf6f":["ah_to"]}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;New Pump User Greeting&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="New Pump User Greeting"&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN3f2e0ade4775c210208d1a2f316d43dd"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;3f2e0ade4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3f2e0ade4775c210208d1a2f316d43dd"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;3f2e0ade4775c210208d1a2f316d43dd&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;772e0ade4775c210208d1a2f316d43de&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;value&gt;x_1124584_mypump_pumpers&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;3f2e0ade4775c210208d1a2f316d43dd&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;b32e0ade4775c210208d1a2f316d43de&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN6f2e0ade4775c210208d1a2f316d4387"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/id&gt;&lt;name&gt;New Pump User Greeting&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;6f2e0ade4775c210208d1a2f316d4387&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6f2e0ade4775c210208d1a2f316d4387"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN632e0ade4775c210208d1a2f316d4397,6f2e0ade4775c210208d1a2f316d4388"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/model&gt;&lt;model_id&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;632e0ade4775c210208d1a2f316d4397&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=632e0ade4775c210208d1a2f316d4397"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/model&gt;&lt;model_id&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;6f2e0ade4775c210208d1a2f316d4388&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6f2e0ade4775c210208d1a2f316d4388"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN1b781e9e47b5c210208d1a2f316d43d0,372e0ade4775c210208d1a2f316d43dc,7b2e0ade4775c210208d1a2f316d43c8"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;1b781e9e47b5c210208d1a2f316d43d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;ui_id&gt;5553baf2-2639-4767-800d-08f544c0f582&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=1b781e9e47b5c210208d1a2f316d43d0"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1b781e9e47b5c210208d1a2f316d43d0&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;1f781e9e47b5c210208d1a2f316d43d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;value&gt;sys_user_grmember&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=1b781e9e47b5c210208d1a2f316d43d0"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;1b781e9e47b5c210208d1a2f316d43d0&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;d7781e9e47b5c210208d1a2f316d43d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;1b781e9e47b5c210208d1a2f316d43d0&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 15:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;9b781e9e47b5c210208d1a2f316d43d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;user={{Created_1.current.user.user_name}}^group={"display":"End users","value":"60c9afdf47e94210208d1a2f316d435c","sys_id":"60c9afdf47e94210208d1a2f316d435c"}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=1b781e9e47b5c210208d1a2f316d43d0"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1b781e9e47b5c210208d1a2f316d43d0"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;6381372d-9939-498b-ba4d-fccc2c68f916&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;372e0ade4775c210208d1a2f316d43dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;30&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;9d101495-3e56-449f-be54-ef5a9d4660b4&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=372e0ade4775c210208d1a2f316d43dc"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;372e0ade4775c210208d1a2f316d43dc&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;3b2e0ade4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;value&gt;incident&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=372e0ade4775c210208d1a2f316d43dc"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;372e0ade4775c210208d1a2f316d43dc&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f32e0ade4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;372e0ade4775c210208d1a2f316d43dc&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;b72e0ade4775c210208d1a2f316d43dd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;caller_id={{Created_1.current.user.user_name}}^priority=2^description=User :"{{Created_1.current.user.sys_id}}" registration failed.&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=372e0ade4775c210208d1a2f316d43dc"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=372e0ade4775c210208d1a2f316d43dc"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;c1806bf4a70323008299b39f087901cb&lt;/action_type&gt;&lt;action_type_parent display_value="Send Email"&gt;98c181d20b100300d97d8bf637673ab5&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;30&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;ui_id&gt;2608c4ed-f11e-4065-871d-9a1e01fdcf6f&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=7b2e0ade4775c210208d1a2f316d43c8"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/document_key&gt;&lt;order&gt;7&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;3f2e0ade4775c210208d1a2f316d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Body"&gt;ad806bf4a70323008299b39f087901f2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/document_key&gt;&lt;order&gt;6&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;ff2e0ade4775c210208d1a2f316d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;value&gt;Welcome to MyPump!&lt;/value&gt;&lt;variable display_value="Subject"&gt;5d806bf4a70323008299b39f087901ec&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=7b2e0ade4775c210208d1a2f316d43c8"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f72e0ade4775c210208d1a2f316d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;&amp;lt;p data-tinymcerootblock=""&amp;gt;Hi&amp;amp;nbsp;&amp;lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&amp;gt;&amp;lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:405e3a72-b352-4baf-9497-6a8326b977e9}}"&amp;gt;&amp;lt;span class="data-pill-content-container"&amp;gt;&amp;lt;span class="pills"&amp;gt;&amp;lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;amp;gt; Pumpers Record &amp;amp;gt; User &amp;amp;gt; First name"&amp;gt;&amp;lt;span class="pill-start"&amp;gt;Trigger - Record Created&amp;lt;/span&amp;gt;&amp;lt;span class="pill-arrow"&amp;gt;&amp;lt;span class="data-pill-label-caret"&amp;gt;&amp;lt;span class="data-pill-label-arrow"&amp;gt;➛&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;...&amp;lt;span class="data-pill-label-caret"&amp;gt;&amp;lt;span class="data-pill-label-arrow"&amp;gt;➛&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span class="pill-end"&amp;gt;First name&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;button id="transform_function_facade_405e3a72-b352-4baf-9497-6a8326b977e9" class="transform_function_facade no_transform_applied"&amp;gt;&amp;lt;span class="inline-script-icon"&amp;gt;&amp;lt;span style="display: none;"&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;,&amp;lt;br /&amp;gt;Welcome to MyPump community!&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Wishing you great progress,&amp;amp;nbsp;&amp;lt;br /&amp;gt;MyPump team&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;bb2e0ade4775c210208d1a2f316d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;7b2e0ade4775c210208d1a2f316d43c8&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;372e0ade4775c210208d1a2f316d43ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;{{Created_1.current.user.email}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=7b2e0ade4775c210208d1a2f316d43c8"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=7b2e0ade4775c210208d1a2f316d43c8"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN232e0ade4775c210208d1a2f316d43b2,2f2e0ade4775c210208d1a2f316d43ae"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;932e0ade4775c210208d1a2f316d4340&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Top Level Catch"&gt;35d60003e6022010a5e40cdd1254dd23&lt;/logic_definition&gt;&lt;order&gt;3&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;232e0ade4775c210208d1a2f316d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;6381372d-9939-498b-ba4d-fccc2c68f916&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=232e0ade4775c210208d1a2f316d43b2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;232e0ade4775c210208d1a2f316d43b2&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;272e0ade4775c210208d1a2f316d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="enabled"&gt;dd70187cc36e20105553b740ad40dddc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;232e0ade4775c210208d1a2f316d43b2&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;632e0ade4775c210208d1a2f316d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Error Status"&gt;0f72a5a25b132010b61ea2013781c749&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=232e0ade4775c210208d1a2f316d43b2"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=232e0ade4775c210208d1a2f316d43b2"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=232e0ade4775c210208d1a2f316d43b2"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;932e0ade4775c210208d1a2f316d4339&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="New Pump User Greeting"&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Top Level Try"&gt;e9060aa2c3013010ace8b740ad40dd51&lt;/logic_definition&gt;&lt;order&gt;0&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;2f2e0ade4775c210208d1a2f316d43ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:07&lt;/sys_updated_on&gt;&lt;ui_id&gt;bc684e5a-e0a4-4844-9aea-b443a2b21a6b&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2f2e0ade4775c210208d1a2f316d43ae"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2f2e0ade4775c210208d1a2f316d43ae"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2f2e0ade4775c210208d1a2f316d43ae"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN3b2e0ade4775c210208d1a2f316d43de"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Created_1.current.user.first_name}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;3b2e0ade4775c210208d1a2f316d43de&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:06&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;405e3a72-b352-4baf-9497-6a8326b977e9&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386^sys_idNOT IN6f2e0ade4775c210208d1a2f316d43a7,e72e0ade4775c210208d1a2f316d4393"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;6f2e0ade4775c210208d1a2f316d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:05&lt;/sys_created_on&gt;&lt;sys_id&gt;e72e0ade4775c210208d1a2f316d4393&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 14:25:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_eb2e0ade4775c210208d1a2f316d4386"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/sys_id&gt;&lt;latest_snapshot&gt;eb2e0ade4775c210208d1a2f316d4386&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=2f4d8e5e4775c210208d1a2f316d4301^sys_idNOT INff2e0ade4775c210208d1a2f316d43f4"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ff2e0ade4775c210208d1a2f316d43f4","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;2f4d8e5e4775c210208d1a2f316d4301&lt;/plan_id&gt;&lt;snapshot&gt;ba9812de47b5c210208d1a2f316d43f6&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 14:25:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ff2e0ade4775c210208d1a2f316d43f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-28 15:10:08&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;332e0ade4775c210208d1a2f316d43f3&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=2f4d8e5e4775c210208d1a2f316d4301"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2136566427</payload_hash>
+        <record_name>New Pump User Greeting</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 15:12:07</sys_created_on>
+        <sys_id>a8f85ade47b5c210208d1a2f316d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f25436dda0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 15:12:07</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>dcf85ade29b5c210da158af3926c495f</update_guid>
+        <update_guid_history>dcf85ade29b5c210da158af3926c495f:-2136566427,bb785e9e11b5c21049217d9be1c7aab5:-275241751,87781e9e3cb5c210a9067cd31c40647e:1981819660,76781e9ebbb5c2109b6a71798743ba44:-48164880,dc685a9e95b5c2109a366ab70d334d6b:-752189661,e0581a9e80b5c210ee523f00349ff103:-1654242859,18d7da5e37b5c2102fe23ab238add0ac:984529205,e7c79a5e13b5c210ad97146124ddd31a:-957821507,96b7d65effb5c210b241548a82c13de6:1635080549,e8b7d65e0db5c21029e1103dba93164d:1132956156,faa7965ee3b5c210d402f7d0837bdbb0:-2025954713,a8c4d25af1b5c210a72ea18589e9c67e:2095582030,40c4925aacb5c21001ecfee052b6ce62:1283486805,9fb4525a22b5c21031888cfa52e379c2:-1510388933,3cb4125a61b5c21089995eeeba1b70b3:-2034333079,4e04521abfb5c2107cc632ce95801818:1296990990,1104121aa8b5c2105faad18b30703209:1229382121,b7f3ded69ab5c210af215d37383eff1a:1550689360,e37352d6a9b5c21042034db82fb36f42:-1641481716,8b7312d6a3b5c21046298cb79123224d:-1480646642,3b639e964ab5c210b80f63f4e87e84dc:-1600819336,cf635e968bb5c210205ab0b76e5b72a2:271350901,11631e9673b5c21072b3946a488f4a59:483800514,b653da9610b5c210cb045e0e190509aa:234142072,4d539a9679b5c21002c26610ab2c25ff:-1573341647,1b925a56adb5c2103d52a05cb94f4cbf:568922828,ae921a5626b5c2109b1f88fdc08bd9b2:1934737438,883e4adee675c21046baca384cba1b31:1087676242,ab2e0ade0075c210e40cd8438b5b935c:1732917114,0f0e46de8475c210cf885b7bc761a364:-1143391953,13dd42dea375c2103c97a2d31234da8a:-1152227059,15cdce9eaa75c210d6da940491ed48bb:1478506025,b69d0e9ecd75c2107e2a81e20389132c:1870854585,cb7d4a9eb375c21036d162584941c5d9:-1579877637,147d0a9e3875c21092e6cf735aecf399:-1219607629,2f4d469e1a75c2104daa280c468fac5d:-1161672447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-19 15:09:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>02168096056c4e7eb3ff66189e3660c4</sys_id>
+        <sys_metadata>2f4d8e5e4775c210208d1a2f316d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Pump User Greeting</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_2f4d8e5e4775c210208d1a2f316d4301</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_2f4d8e5e4775c210208d1a2f316d4301">a8f85ade47b5c210208d1a2f316d4360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-19 15:09:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

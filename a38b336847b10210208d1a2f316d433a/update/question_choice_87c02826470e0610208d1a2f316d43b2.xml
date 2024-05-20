@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>140</order>
+        <published_ref/>
+        <question display_value="Choose size:">6f80a8e2470e0610208d1a2f316d438f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:21:26</sys_created_on>
+        <sys_id>87c02826470e0610208d1a2f316d43b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>L</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>question_choice_87c02826470e0610208d1a2f316d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:22:27</sys_updated_on>
+        <text>L</text>
+        <value>large_size</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=87c02826470e0610208d1a2f316d43b2"/>
+</record_update>

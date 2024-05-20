@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate record from table 'x_1124584_mypump_pumpers' matches the following condition:
+User = {{Step 1: Create a User.User}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validate that user record is present in the table</notes>
+        <order>3</order>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>61152c8f47398610208d1a2f316d43e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_atf_step_61152c8f47398610208d1a2f316d43e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 15:42:19</sys_updated_on>
+        <table>x_1124584_mypump_pumpers</table>
+        <test display_value="New user handling">11c12c8b47398610208d1a2f316d4313</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=61152c8f47398610208d1a2f316d43e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>61152c8f47398610208d1a2f316d43e0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>0d652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>61152c8f47398610208d1a2f316d43e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>49652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <value/>
+        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>61152c8f47398610208d1a2f316d43e0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>81652c4f47398610208d1a2f316d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <value>user={{step['63e1a0cb47398610208d1a2f316d4324'].user}}^EQ</value>
+        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>61152c8f47398610208d1a2f316d43e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>85652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="Assert type">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>61152c8f47398610208d1a2f316d43e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>cd652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <value>x_1124584_mypump_pumpers</value>
+        <variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=61152c8f47398610208d1a2f316d43e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>61152c8f47398610208d1a2f316d43e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>41652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>61152c8f47398610208d1a2f316d43e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>05652c4f47398610208d1a2f316d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>user={{step['63e1a0cb47398610208d1a2f316d4324'].user}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>61152c8f47398610208d1a2f316d43e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:42:42</sys_created_on>
+        <sys_id>8d652c4f47398610208d1a2f316d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:42:42</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['d4f2a0cb47398610208d1a2f316d43a2'].record_id}}</value>
+    </sys_element_mapping>
+</record_update>

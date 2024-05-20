@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="DELETE">
+        <active>true</active>
+        <description/>
+        <input_filter/>
+        <name>Pumpers</name>
+        <parent display_value="MyPump ATF Suite">a1ffd40b47398610208d1a2f316d43ca</parent>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:26:10</sys_created_on>
+        <sys_id>fc81ec0b47398610208d1a2f316d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pumpers</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_atf_test_suite_fc81ec0b47398610208d1a2f316d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:26:10</sys_updated_on>
+    </sys_atf_test_suite>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_atf_test_suite_fc81ec0b47398610208d1a2f316d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite"><sys_atf_test_suite action="INSERT_OR_UPDATE"><active>true</active><description/><input_filter/><name>Pumpers</name><parent display_value="MyPump ATF Suite">a1ffd40b47398610208d1a2f316d43ca</parent><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test_suite</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-30 14:26:10</sys_created_on><sys_id>fc81ec0b47398610208d1a2f316d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pumpers</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sys_atf_test_suite_fc81ec0b47398610208d1a2f316d43be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-30 14:26:10</sys_updated_on></sys_atf_test_suite></record_update>]]></payload>
+        <payload_hash>16977224</payload_hash>
+        <record_name>Pumpers</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:26:10</sys_created_on>
+        <sys_id>cb91a48b47398610208d1a2f316d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2f6616160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:26:10</sys_updated_on>
+        <type>Test Suite</type>
+        <update_guid>cf91a48b6639861057281e5ad030774f</update_guid>
+        <update_guid_history>cf91a48b6639861057281e5ad030774f:16977224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 14:26:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite">sys_atf_test_suite</sys_db_object>
+        <sys_id>04aa28fa560c4eef80972677b9f143a9</sys_id>
+        <sys_metadata>fc81ec0b47398610208d1a2f316d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pumpers</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_fc81ec0b47398610208d1a2f316d43be</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_fc81ec0b47398610208d1a2f316d43be">cb91a48b47398610208d1a2f316d4350</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:26:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

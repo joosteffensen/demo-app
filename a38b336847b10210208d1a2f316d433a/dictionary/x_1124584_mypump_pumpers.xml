@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ebf58cb447f10210208d1a2f316d435a" label="Pumpers" max_length="40" name="x_1124584_mypump_pumpers" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="I want to join MyPump community" mandatory="true" max_length="40" name="u_registration" type="boolean"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

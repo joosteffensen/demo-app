@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>a5d3623c47420210208d1a2f316d43ab</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>delete_user</path>
+        <root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 10:24:31</sys_created_on>
+        <sys_id>6dd3623c47420210208d1a2f316d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delete user</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_ux_page_registry_6dd3623c47420210208d1a2f316d43ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 10:24:31</sys_updated_on>
+        <title>delete user</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_ux_page_registry_6dd3623c47420210208d1a2f316d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>a5d3623c47420210208d1a2f316d43ab</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>delete_user</path><root_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-06 10:24:31</sys_created_on><sys_id>6dd3623c47420210208d1a2f316d43ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>delete user</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sys_ux_page_registry_6dd3623c47420210208d1a2f316d43ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-06 10:24:31</sys_updated_on><title>delete user</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>484461676</payload_hash>
+        <record_name>delete user</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 10:24:31</sys_created_on>
+        <sys_id>6dd3a67c47420210208d1a2f316d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f4d6f011e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 10:24:31</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>e1d3623c65420210a0d53d048d9b8fb1</update_guid>
+        <update_guid_history>e1d3623c65420210a0d53d048d9b8fb1:484461676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-18 20:35:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0bcc6810b5eb4f2781a24270b147a2b9</sys_id>
+        <sys_metadata>6dd3623c47420210208d1a2f316d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delete user</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_6dd3623c47420210208d1a2f316d43ae</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_6dd3623c47420210208d1a2f316d43ae">6dd3a67c47420210208d1a2f316d4300</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-18 20:35:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

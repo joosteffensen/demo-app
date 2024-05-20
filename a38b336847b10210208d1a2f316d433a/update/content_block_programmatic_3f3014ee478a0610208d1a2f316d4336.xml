@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Base Content</name>
+        <programmatic_content>&lt;?xml version="1.0" encoding="utf-8" ?&gt;&#13;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;&#13;
+    &lt;div id="dynamicContent"&gt;&#13;
+        &lt;p id="greeting"&gt;Loading...&lt;/p&gt;&#13;
+        &lt;p id="date"&gt;Today's Date: Loading...&lt;/p&gt;&#13;
+        &lt;p id="weather"&gt;Weather: Loading...&lt;/p&gt;&#13;
+    &lt;/div&gt;&#13;
+&#13;
+    &lt;j:script&gt;&#13;
+        &lt;![CDATA[&#13;
+            function greetUser() {&#13;
+                var userName = "${gs.getUser().getDisplayName()}"; // Retrieve the logged-in user's name&#13;
+                document.getElementById('greeting').textContent = "Hi, " + userName;&#13;
+            }&#13;
+&#13;
+            function getCurrentDateTime() {&#13;
+                var now = new Date();&#13;
+                var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };&#13;
+                var formattedDate = now.toLocaleDateString('en-US', options);&#13;
+                document.getElementById('date').textContent = "Today's Date: " + formattedDate;&#13;
+            }&#13;
+            window.onload = function() {&#13;
+                greetUser();&#13;
+                getCurrentDateTime();&#13;
+                getWeather();&#13;
+            };&#13;
+        ]]&gt;&#13;
+    &lt;/j:script&gt;&#13;
+&lt;/j:jelly&gt;&#13;
+</programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:09:32</sys_created_on>
+        <sys_id>3f3014ee478a0610208d1a2f316d4336</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Base Content</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>content_block_programmatic_3f3014ee478a0610208d1a2f316d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:14:41</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+</record_update>

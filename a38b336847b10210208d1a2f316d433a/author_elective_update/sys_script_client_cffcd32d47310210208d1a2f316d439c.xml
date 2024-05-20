@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Autofill user field in MyPump registration form</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>user autofill</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var currentUser = g_user.userID;
+    var userRole = g_user.hasRole('admin');
+
+    if (!userRole && g_form.isNewRecord()) {
+        alert("if debug statement");
+        g_form.setValue('user', currentUser);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:18:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cffcd32d47310210208d1a2f316d439c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>user autofill</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_script_client_cffcd32d47310210208d1a2f316d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:01:27</sys_updated_on>
+        <table>x_1124584_mypump_pumpers</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_script_client_cffcd32d47310210208d1a2f316d439c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Autofill user field in MyPump registration form&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;user autofill&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    var currentUser = g_user.userID;
+    var userRole = g_user.hasRole('admin');
+
+    if (!userRole &amp;&amp; g_form.isNewRecord()) {
+        alert("if debug statement");
+        g_form.setValue('user', currentUser);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-26 12:18:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cffcd32d47310210208d1a2f316d439c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;user autofill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cffcd32d47310210208d1a2f316d439c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-26 13:01:27&lt;/sys_updated_on&gt;&lt;table&gt;x_1124584_mypump_pumpers&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1067439738</payload_hash>
+        <record_name>user autofill</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 13:01:27</sys_created_on>
+        <sys_id>87d7a3e947710210208d1a2f316d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a7f17a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:01:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4fd7a3e9bc710210ef2c4cae910c4600</update_guid>
+        <update_guid_history>4fd7a3e9bc710210ef2c4cae910c4600:-1067439738,6787aba9dc7102104382a739b94d0df6:1949115606,a2a527a590710210d7bd918ddb828f29:643797651,6b65efe57c71021032203be232159cba:-1585633829,9cd36765a3710210e42e2d0750d92164:-279497756,700edbe95b310210ce6d43cf388aab3e:222944727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 13:09:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>228385b284bd4700a5ac2b37602b4400</sys_id>
+        <sys_metadata>cffcd32d47310210208d1a2f316d439c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user autofill</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent display_value="Pumpers">ebf58cb447f10210208d1a2f316d435a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_script_client_cffcd32d47310210208d1a2f316d439c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cffcd32d47310210208d1a2f316d439c">87d7a3e947710210208d1a2f316d4301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:09:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_programmatic">
+    <content_block_programmatic action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Base Content</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <div id="dynamicContent">
+        <p id="greeting"></p>
+        <p id="date"></p>
+        <p id="weather"></p>
+    </div>
+
+    <script>
+
+    // Function to get the current date and time
+    function getCurrentDateTime() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = now.toLocaleDateString('en-US', options);
+        document.getElementById('date').textContent = `Today's Date: ${formattedDate}`;
+
+        // Call function to fetch weather
+        getWeather();
+    }
+
+    // Function to greet the current user
+    function greetUser() {
+        const userName = g_user.userName; // Retrieve the logged-in user's name
+        document.getElementById('greeting').textContent = `Hi, ${userName}`;
+    }
+
+    // Call functions to display dynamic content
+    getCurrentDateTime();
+    greetUser();
+    </script>
+</j:jelly>
+]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:02:26</sys_created_on>
+        <sys_id>cd1cc0aa478a0610208d1a2f316d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Content</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>content_block_programmatic_cd1cc0aa478a0610208d1a2f316d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:02:26</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>content_block_programmatic_cd1cc0aa478a0610208d1a2f316d435f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="content_block_programmatic"&gt;&lt;content_block_programmatic action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;frame/&gt;&lt;logged_on&gt;false&lt;/logged_on&gt;&lt;name&gt;Base Content&lt;/name&gt;&lt;programmatic_content&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+    &lt;div id="dynamicContent"&gt;
+        &lt;p id="greeting"&gt;&lt;/p&gt;
+        &lt;p id="date"&gt;&lt;/p&gt;
+        &lt;p id="weather"&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+
+    // Function to get the current date and time
+    function getCurrentDateTime() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = now.toLocaleDateString('en-US', options);
+        document.getElementById('date').textContent = `Today's Date: ${formattedDate}`;
+
+        // Call function to fetch weather
+        getWeather();
+    }
+
+    // Function to greet the current user
+    function greetUser() {
+        const userName = g_user.userName; // Retrieve the logged-in user's name
+        document.getElementById('greeting').textContent = `Hi, ${userName}`;
+    }
+
+    // Call functions to display dynamic content
+    getCurrentDateTime();
+    greetUser();
+    &lt;/script&gt;
+&lt;/j:jelly&gt;
+]]&gt;&lt;/programmatic_content&gt;&lt;sys_class_name&gt;content_block_programmatic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 10:02:26&lt;/sys_created_on&gt;&lt;sys_id&gt;cd1cc0aa478a0610208d1a2f316d435f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Base Content&lt;/sys_name&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;content_block_programmatic_cd1cc0aa478a0610208d1a2f316d435f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-11 10:02:26&lt;/sys_updated_on&gt;&lt;two_phase&gt;false&lt;/two_phase&gt;&lt;/content_block_programmatic&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>542458456</payload_hash>
+        <record_name>Base Content</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:02:26</sys_created_on>
+        <sys_id>b2be88a2478a0610208d1a2f316d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f671a93cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:02:26</sys_updated_on>
+        <type>Dynamic Content</type>
+        <update_guid>b6be88a2db8a06101a79433ef5533b90</update_guid>
+        <update_guid_history>b6be88a2db8a06101a79433ef5533b90:542458456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Base Content">f41090ae478a0610208d1a2f316d43b1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:08:18</sys_created_on>
+        <sys_db_object display_value="" name="content_block_programmatic">content_block_programmatic</sys_db_object>
+        <sys_id>af7633099dd543d493fe3f06c95df110</sys_id>
+        <sys_metadata>cd1cc0aa478a0610208d1a2f316d435f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Base Content</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>content_block_programmatic_cd1cc0aa478a0610208d1a2f316d435f</sys_update_name>
+        <sys_update_version display_value="content_block_programmatic_cd1cc0aa478a0610208d1a2f316d435f">b2be88a2478a0610208d1a2f316d4391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:08:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

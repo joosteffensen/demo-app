@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Read only for non admin users</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1124584_mypump_pumpers.user</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[const adminUser = gs.hasRole('admin')
+if(!adminUser){
+	answer = false
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 13:38:20</sys_created_on>
+        <sys_id>c284625d47b5c210208d1a2f316d431f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1124584_mypump_pumpers.user</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_security_acl_c284625d47b5c210208d1a2f316d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 13:55:39</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_security_acl_c284625d47b5c210208d1a2f316d431f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Read only for non admin users&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1124584_mypump_pumpers.user&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[const adminUser = gs.hasRole('admin')
+if(!adminUser){
+	answer = false
+}]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-25 13:38:20&lt;/sys_created_on&gt;&lt;sys_id&gt;c284625d47b5c210208d1a2f316d431f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1124584_mypump_pumpers.user&lt;/sys_name&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_c284625d47b5c210208d1a2f316d431f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-25 13:55:39&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-709302541</payload_hash>
+        <record_name>x_1124584_mypump_pumpers.user</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 13:55:39</sys_created_on>
+        <sys_id>8baa6e1547f5c210208d1a2f316d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f158a59100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 13:55:39</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>43aa6e15bbf5c2109c3b26b078bb56d8</update_guid>
+        <update_guid_history>43aa6e15bbf5c2109c3b26b078bb56d8:-709302541,a5b82291e7f5c21035a2950287541686:-1783610246,d7a7ee1120f5c21009d70c5bc8e532fa:-709302541,d5b6aad9b4b5c2107d89cb5678822d04:-1783610246</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 14:08:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>38de42950a994ce6be8dc5fe31e69cc4</sys_id>
+        <sys_metadata>c284625d47b5c210208d1a2f316d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1124584_mypump_pumpers.user</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent display_value="User">37f508b447f10210208d1a2f316d434b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c284625d47b5c210208d1a2f316d431f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c284625d47b5c210208d1a2f316d431f">8baa6e1547f5c210208d1a2f316d43d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 14:08:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

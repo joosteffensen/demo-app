@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>f1ce029b47350a10208d1a2f316d43b6</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app>
+        <path>myprogress</path>
+        <root_macroponent display_value="Header App Shell">9d9670b0c30320109fe6a0f89d40dd97</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-01 17:01:37</sys_created_on>
+        <sys_id>75ce06db47350a10208d1a2f316d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Myprogress</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_ux_page_registry_75ce06db47350a10208d1a2f316d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-01 17:01:37</sys_updated_on>
+        <title>Myprogress</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_ux_page_registry_75ce06db47350a10208d1a2f316d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>f1ce029b47350a10208d1a2f316d43b6</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app><path>myprogress</path><root_macroponent display_value="Header App Shell">9d9670b0c30320109fe6a0f89d40dd97</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-01 17:01:37</sys_created_on><sys_id>75ce06db47350a10208d1a2f316d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Myprogress</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sys_ux_page_registry_75ce06db47350a10208d1a2f316d43be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-01 17:01:37</sys_updated_on><title>Myprogress</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1739781262</payload_hash>
+        <record_name>Myprogress</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-01 17:01:37</sys_created_on>
+        <sys_id>3dce06db47350a10208d1a2f316d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f351ac44c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-01 17:01:37</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>31ce06db65350a10cd9ff1544fa97cc1</update_guid>
+        <update_guid_history>31ce06db65350a10cd9ff1544fa97cc1:1739781262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-18 20:35:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>6c1a2fa79cf04083b1d8762c6931dfd9</sys_id>
+        <sys_metadata>75ce06db47350a10208d1a2f316d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Myprogress</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_75ce06db47350a10208d1a2f316d43be</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_75ce06db47350a10208d1a2f316d43be">3dce06db47350a10208d1a2f316d43c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-18 20:35:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

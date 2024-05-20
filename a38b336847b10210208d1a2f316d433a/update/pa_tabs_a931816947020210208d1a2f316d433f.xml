@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 1">e931852947020210208d1a2f316d439f</canvas_page>
+        <name>a931816947020210208d1a2f316d433fTrack Your progress</name>
+        <page display_value="Track Your progress">2d31852947020210208d1a2f316d439d</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-08 11:09:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a931816947020210208d1a2f316d433f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>a931816947020210208d1a2f316d433fTrack Your progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>pa_tabs_a931816947020210208d1a2f316d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 16:26:24</sys_updated_on>
+    </pa_tabs>
+</record_update>

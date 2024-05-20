@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Choose color:">dbfad46e47ca0610208d1a2f316d439d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:09:57</sys_created_on>
+        <sys_id>952e5c62470e0610208d1a2f316d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Black</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>question_choice_952e5c62470e0610208d1a2f316d4378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:09:57</sys_updated_on>
+        <text>Black</text>
+        <value/>
+    </question_choice>
+    <fx_price action="DELETE" query="id=952e5c62470e0610208d1a2f316d4378"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>question_choice_952e5c62470e0610208d1a2f316d4378</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Choose color:">dbfad46e47ca0610208d1a2f316d439d</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-11 11:09:57</sys_created_on><sys_id>952e5c62470e0610208d1a2f316d4378</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Black</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>question_choice_952e5c62470e0610208d1a2f316d4378</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-11 11:09:57</sys_updated_on><text>Black</text><value/></question_choice><fx_price action="delete_multiple" query="id=952e5c62470e0610208d1a2f316d4378"/></record_update>]]></payload>
+        <payload_hash>-478424683</payload_hash>
+        <record_name>Black</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:09:57</sys_created_on>
+        <sys_id>483e1062470e0610208d1a2f316d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f6758670e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:09:57</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>4c3e1062d50e0610727e3476388e0b29</update_guid>
+        <update_guid_history>4c3e1062d50e0610727e3476388e0b29:-478424683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Black">8ffe18a2470e0610208d1a2f316d434d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 11:13:27</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>08580d74b6a34d1d8c0c8b67e92ceba1</sys_id>
+        <sys_metadata>952e5c62470e0610208d1a2f316d4378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Black</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent display_value="Choose color:">dbfad46e47ca0610208d1a2f316d439d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>question_choice_952e5c62470e0610208d1a2f316d4378</sys_update_name>
+        <sys_update_version display_value="question_choice_952e5c62470e0610208d1a2f316d4378">483e1062470e0610208d1a2f316d432a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 11:13:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

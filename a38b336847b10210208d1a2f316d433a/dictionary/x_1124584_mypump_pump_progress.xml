@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ebe736c47b10210208d1a2f316d4333" label="Pump Progress" max_length="40" name="x_1124584_mypump_pump_progress" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Add your exercise:" max_length="40" name="add_your_exercise" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Choose an exercise" hint="Available after muscle group is chosen" label="Exercise" mandatory="true" max_length="40" name="exercise" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Crunches" sequence="0" value="Crunches"/>
+                <element inactive_on_update="false" label="Plank" sequence="1" value="Plank"/>
+                <element inactive_on_update="false" label="Twists" sequence="2" value="Twists"/>
+                <element inactive_on_update="false" label="Bench Press" sequence="3" value="Bench Press"/>
+                <element inactive_on_update="false" label="Hammer Press" sequence="4" value="Hammer Press"/>
+                <element inactive_on_update="false" label="Push ups" sequence="5" value="Push ups"/>
+                <element inactive_on_update="false" label="Squats" sequence="6" value="Squats"/>
+                <element inactive_on_update="false" label="Leg curl" sequence="7" value="Leg curl"/>
+                <element inactive_on_update="false" label="Leg extension" sequence="8" value="Leg extension"/>
+                <element inactive_on_update="false" label="Leg Press" sequence="9" value="Leg Press"/>
+                <element inactive_on_update="false" label="Triceps extension" sequence="10" value="Triceps extension"/>
+                <element inactive_on_update="false" label="Skull crushers" sequence="11" value="Skull crushers"/>
+                <element inactive_on_update="false" label="Triceps pushdowns" sequence="12" value="Triceps pushdowns"/>
+                <element inactive_on_update="false" label="Ez-bar curl" sequence="13" value="Ez-bar curl"/>
+                <element inactive_on_update="false" label="Hammer curl" sequence="14" value="Hammer curl"/>
+                <element inactive_on_update="false" label="Biceps curl" sequence="15" value="Biceps curl"/>
+                <element inactive_on_update="false" label="Pull ups" sequence="16" value="Pull ups"/>
+                <element inactive_on_update="false" label="Pull downs" sequence="17" value="Pull downs"/>
+                <element inactive_on_update="false" label="Seated cable rows" sequence="18" value="Seated cable rows"/>
+                <element inactive_on_update="false" label="Overhead press" sequence="19" value="Overhead press"/>
+                <element inactive_on_update="false" label="Side raises" sequence="20" value="Side raises"/>
+                <element inactive_on_update="false" label="Reverse Fly" sequence="21" value="Reverse Fly"/>
+                <element inactive_on_update="false" label="Other" sequence="22" value="Other"/>
+            </choice>
+        </element>
+        <element hint="Define if you did an exercise till muscle failure" label="Failure" max_length="40" name="failure" type="boolean"/>
+        <element label="Max. weight (kg)" max_length="40" name="max_weight_kg" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Muscle Group" mandatory="true" max_length="40" name="muscle_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abs" value="abs"/>
+                <element inactive_on_update="false" label="Arms" value="arms"/>
+                <element inactive_on_update="false" label="Back" value="back"/>
+                <element inactive_on_update="false" label="Chest" value="chest"/>
+                <element inactive_on_update="false" label="Legs" value="legs"/>
+                <element inactive_on_update="false" label="Shoulders" value="shoulders"/>
+            </choice>
+        </element>
+        <element label="Reps" mandatory="true" max_length="40" name="reps" type="integer"/>
+        <element label="Sets" mandatory="true" max_length="40" name="sets" type="integer"/>
+    </element>
+</database>

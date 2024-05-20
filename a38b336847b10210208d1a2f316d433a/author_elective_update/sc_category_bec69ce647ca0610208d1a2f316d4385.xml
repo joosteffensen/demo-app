@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="MyPump shop">263614e647ca0610208d1a2f316d43de</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:37:49</sys_created_on>
+        <sys_id>bec69ce647ca0610208d1a2f316d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sc_category_bec69ce647ca0610208d1a2f316d4385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:37:49</sys_updated_on>
+        <title>Products</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=bec69ce647ca0610208d1a2f316d4385"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sc_category_bec69ce647ca0610208d1a2f316d4385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="MyPump shop">263614e647ca0610208d1a2f316d43de</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-11 10:37:49</sys_created_on><sys_id>bec69ce647ca0610208d1a2f316d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Products</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_update_name>sc_category_bec69ce647ca0610208d1a2f316d4385</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-11 10:37:49</sys_updated_on><title>Products</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=bec69ce647ca0610208d1a2f316d4385"/></record_update>]]></payload>
+        <payload_hash>1006053898</payload_hash>
+        <record_name>Products</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 10:37:49</sys_created_on>
+        <sys_id>55d6902a47ca0610208d1a2f316d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f673afb250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 10:37:49</sys_updated_on>
+        <type>Category</type>
+        <update_guid>59d6902adaca061080e9b75655537c99</update_guid>
+        <update_guid_history>59d6902adaca061080e9b75655537c99:1006053898</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Products">10b065e647424610208d1a2f316d4392</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 16:00:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>0196c7857b6b4fdb8014dabef0210bf9</sys_id>
+        <sys_metadata>bec69ce647ca0610208d1a2f316d4385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sc_category_bec69ce647ca0610208d1a2f316d4385</sys_update_name>
+        <sys_update_version display_value="sc_category_bec69ce647ca0610208d1a2f316d4385">55d6902a47ca0610208d1a2f316d439a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-11 16:00:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 12:07:30</sys_created_on>
+        <sys_id>afbeb36c47b10210208d1a2f316d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1124584_mypump_pump_progress.admin</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_security_acl display_value="x_1124584_mypump_pump_progress">e3beb36c47b10210208d1a2f316d432e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_afbeb36c47b10210208d1a2f316d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 12:07:30</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_security_acl_role_afbeb36c47b10210208d1a2f316d4330</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 12:07:30</sys_created_on><sys_id>afbeb36c47b10210208d1a2f316d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1124584_mypump_pump_progress.admin</sys_name><sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package><sys_policy/><sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope><sys_security_acl display_value="x_1124584_mypump_pump_progress">e3beb36c47b10210208d1a2f316d432e</sys_security_acl><sys_update_name>sys_security_acl_role_afbeb36c47b10210208d1a2f316d4330</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 12:07:30</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-113558855</payload_hash>
+        <record_name>x_1124584_mypump_pump_progress.admin</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 12:07:30</sys_created_on>
+        <sys_id>23beb36c47b10210208d1a2f316d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0ada9f780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 12:07:30</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6fbeb36c6cb102104c9ce3f767089f32</update_guid>
+        <update_guid_history>6fbeb36c6cb102104c9ce3f767089f32:-113558855</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1124584_mypump_pump_progress.admin">a31f4946477d4210208d1a2f316d4335</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-27 15:11:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>23edad2be51f4db68d73c364f0e64309</sys_id>
+        <sys_metadata>afbeb36c47b10210208d1a2f316d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1124584_mypump_pump_progress.admin</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_afbeb36c47b10210208d1a2f316d4330</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_afbeb36c47b10210208d1a2f316d4330">23beb36c47b10210208d1a2f316d4340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 15:11:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

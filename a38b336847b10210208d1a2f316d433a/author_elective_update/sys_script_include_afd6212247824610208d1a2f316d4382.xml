@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1124584_mypump.geocoding</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Converts coordinates of the user to readable address</description>
+        <name>geocoding</name>
+        <script><![CDATA[var geocoding = Class.create();
+geocoding.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    addressConvert: function(){
+		var latitude = this.getParameter('latitude');
+		var longtitude = this.getParameter('longitude');
+        var mapsKey = 'AIzaSyA6b9cY58sbPX7qmFlT4qeM47B-bMFELHg';
+        var apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&key=' + mapsKey;
+		gs.info("apiCall Url is: "+ apiUrl);
+        var apiCall = new GlideHTTPRequest('GET', apiUrl);
+        var response = apiCall.getResponseBody(); // Use apiCall instead of request
+        var data = JSON.parse(response);
+        if (data.results && data.results.length > 0) {
+            var formattedAddress = data.results[0].formatted_address;
+            return formattedAddress;
+        } else {
+            gs.addErrorMessage('Address wasn\'t found');
+            return null; // Return null if address not found
+        }
+    },
+    type: 'geocoding'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-11 16:41:22</sys_created_on>
+        <sys_id>afd6212247824610208d1a2f316d4382</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>geocoding</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_update_name>sys_script_include_afd6212247824610208d1a2f316d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 15:06:06</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyPump">a38b336847b10210208d1a2f316d433a</application>
+        <file_path/>
+        <instance_id>b05cc051db867d90ae4c9027c59619c4</instance_id>
+        <instance_name>dev192434</instance_name>
+        <name>sys_script_include_afd6212247824610208d1a2f316d4382</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1124584_mypump.geocoding&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Converts coordinates of the user to readable address&lt;/description&gt;&lt;name&gt;geocoding&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var geocoding = Class.create();
+geocoding.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    addressConvert: function(){
+		var latitude = this.getParameter('latitude');
+		var longtitude = this.getParameter('longitude');
+        var mapsKey = 'AIzaSyA6b9cY58sbPX7qmFlT4qeM47B-bMFELHg';
+        var apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&amp;key=' + mapsKey;
+		gs.info("apiCall Url is: "+ apiUrl);
+        var apiCall = new GlideHTTPRequest('GET', apiUrl);
+        var response = apiCall.getResponseBody(); // Use apiCall instead of request
+        var data = JSON.parse(response);
+        if (data.results &amp;&amp; data.results.length &gt; 0) {
+            var formattedAddress = data.results[0].formatted_address;
+            return formattedAddress;
+        } else {
+            gs.addErrorMessage('Address wasn\'t found');
+            return null; // Return null if address not found
+        }
+    },
+    type: 'geocoding'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-11 16:41:22&lt;/sys_created_on&gt;&lt;sys_id&gt;afd6212247824610208d1a2f316d4382&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;geocoding&lt;/sys_name&gt;&lt;sys_package display_value="MyPump" source="x_1124584_mypump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="MyPump"&gt;a38b336847b10210208d1a2f316d433a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_afd6212247824610208d1a2f316d4382&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 15:06:06&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-785905307</payload_hash>
+        <record_name>geocoding</record_name>
+        <reverted_from/>
+        <source>e38b336847b10210208d1a2f316d433e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 15:06:07</sys_created_on>
+        <sys_id>5a9a71bb47820210208d1a2f316d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f7cca0b140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 15:06:07</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>de9a71bb8a8202103717cc885320edbd</update_guid>
+        <update_guid_history>de9a71bb8a8202103717cc885320edbd:-785905307,44c9fab6b28a861036004c40113de2fc:-2027090908,b39d2d264d82461014d605f3823743e0:30309677,c49ce5a6498246100e9eeab7d7f9bab0:1267381414,614ce5a6cb8246101f47a63e55cc3cc7:-1044133924,e01ce966c782461005f5ba9243cec7c5:1784831314,2e2ba122ea8246108b0286d46bd8d86e:1709781278,7e0aade2c782461047b833e3cc1a8572:1645049685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 15:54:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7d722a9cfb2844e098cf04ce4396aa40</sys_id>
+        <sys_metadata>afd6212247824610208d1a2f316d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>geocoding</sys_name>
+        <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
+        <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>
+        <sys_update_name>sys_script_include_afd6212247824610208d1a2f316d4382</sys_update_name>
+        <sys_update_version display_value="sys_script_include_afd6212247824610208d1a2f316d4382">5a9a71bb47820210208d1a2f316d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 15:54:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
