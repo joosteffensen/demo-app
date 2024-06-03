@@ -14,6 +14,6 @@
         <sys_update_name>sys_report_users_groups_1bf3142647ca0610208d1a2f316d43e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-11 10:25:24</sys_updated_on>
-        <user_id display_value="Arturito Admin">6816f79cc0a8016401c5a33be04be441</user_id>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
     </sys_report_users_groups>
 </record_update>

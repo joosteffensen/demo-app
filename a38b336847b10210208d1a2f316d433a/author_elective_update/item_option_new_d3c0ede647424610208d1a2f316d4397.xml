@@ -171,7 +171,7 @@
         <update_guid_history>8331292a8742461080f96041b4e467d8:1567726766</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Delivery address:">b7f1a96a47424610208d1a2f316d4367</sys_audit_delete>
+        <sys_audit_delete display_value="">b7f1a96a47424610208d1a2f316d4367</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-11 16:06:14</sys_created_on>

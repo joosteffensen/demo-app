@@ -66,7 +66,7 @@
         <update_guid_history>22a82fb0f5c60210b121ee54f4583d68:1506119120,015827b09fc602109f0b6877be3767d5:-912811241,4bd7af70e5c60210936f8de6d2f15e5a:490577290,f497e37093c60210910bf8e8b422985a:1679292975,4077e734b54602101ab573673abbb0f2:1506119120,ab0432b077c20210ad7f6d1277e96440:-253914961</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Leave community">38a86ef847564610208d1a2f316d43de</sys_audit_delete>
+        <sys_audit_delete display_value="">38a86ef847564610208d1a2f316d43de</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-18 21:01:11</sys_created_on>

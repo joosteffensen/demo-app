@@ -45,7 +45,7 @@
         <update_guid_history>dc5f105a260ac2102859a1bfe5a86a99:1999285347,dc5f105a260ac2102859a1bfe5a86a99:1999285347,dc5f105a260ac2102859a1bfe5a86a99:1999285347,1afc10965d0ac210c9ed1fc9f5ad8fa5:607786879,defc10961b0ac21054012b058c4293a2:-1201871733</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Order our merch">e900c70c47da4210208d1a2f316d43d4</sys_audit_delete>
+        <sys_audit_delete display_value="">e900c70c47da4210208d1a2f316d43d4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-16 14:47:55</sys_created_on>

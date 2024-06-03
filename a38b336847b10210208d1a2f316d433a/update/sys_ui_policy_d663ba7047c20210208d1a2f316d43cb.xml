@@ -35,6 +35,6 @@
         <sys_updated_on>2024-05-18 20:34:48</sys_updated_on>
         <table>x_1124584_mypump_pumpers</table>
         <ui_type>0</ui_type>
-        <view display_value="">user_delete</view>
+        <view display_value="" name="user_delete">user_delete</view>
     </sys_ui_policy>
 </record_update>

@@ -60,7 +60,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1124584_mypump_pumpers.*</sys_name>
         <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
-        <sys_parent display_value="x_1124584_mypump_pumpers">c847c43847f10210208d1a2f316d439f</sys_parent>
+        <sys_parent display_value="">c847c43847f10210208d1a2f316d439f</sys_parent>
         <sys_policy/>
         <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
         <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>

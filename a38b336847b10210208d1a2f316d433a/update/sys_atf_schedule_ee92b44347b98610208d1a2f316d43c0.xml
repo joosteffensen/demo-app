@@ -15,7 +15,7 @@ Any operating system on any version</description>
         <offset/>
         <offset_type>0</offset_type>
         <performance_test>false</performance_test>
-        <run_as display_value="Arturito Admin">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

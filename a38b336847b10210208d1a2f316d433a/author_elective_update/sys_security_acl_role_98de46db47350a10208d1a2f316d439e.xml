@@ -41,7 +41,7 @@
         <update_guid_history>1cde46dbb0350a10481d7730c6d72da1:1693909444</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x.1124584.myprogress.*.user">d416ccd547820210208d1a2f316d4324</sys_audit_delete>
+        <sys_audit_delete display_value="">d416ccd547820210208d1a2f316d4324</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-05-07 12:12:10</sys_created_on>

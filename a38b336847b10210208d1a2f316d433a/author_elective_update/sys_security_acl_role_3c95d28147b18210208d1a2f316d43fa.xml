@@ -41,7 +41,7 @@
         <update_guid_history>c1a59a8185b18210060111be51af880f:-55243638</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1124584_mypump_pumpers.admin">33c51e8147b18210208d1a2f316d43e0</sys_audit_delete>
+        <sys_audit_delete display_value="">33c51e8147b18210208d1a2f316d43e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-24 17:46:01</sys_created_on>

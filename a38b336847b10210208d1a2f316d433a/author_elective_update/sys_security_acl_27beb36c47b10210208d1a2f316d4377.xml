@@ -62,7 +62,7 @@ answer = false;]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_nam
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1124584_mypump_pump_progress.*</sys_name>
         <sys_package display_value="MyPump" source="x_1124584_mypump">a38b336847b10210208d1a2f316d433a</sys_package>
-        <sys_parent display_value="x_1124584_mypump_pump_progress">2abe736c47b10210208d1a2f316d4336</sys_parent>
+        <sys_parent display_value="">2abe736c47b10210208d1a2f316d4336</sys_parent>
         <sys_policy/>
         <sys_scope display_value="MyPump">a38b336847b10210208d1a2f316d433a</sys_scope>
         <sys_scope_delete display_value="">031b5e6f71f84e94bb2ea9bf8f308524</sys_scope_delete>

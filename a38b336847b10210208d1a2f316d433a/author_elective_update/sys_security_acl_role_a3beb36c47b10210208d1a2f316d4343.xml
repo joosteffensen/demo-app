@@ -41,7 +41,7 @@
         <update_guid_history>63beb36caeb10210ef0b2011a231b645:891830476</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1124584_mypump_pump_progress.admin">a12f8946477d4210208d1a2f316d43b5</sys_audit_delete>
+        <sys_audit_delete display_value="">a12f8946477d4210208d1a2f316d43b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-27 15:11:13</sys_created_on>
